@@ -1,30 +1,36 @@
-# Pro Work AI - Workplace Productivity Assistant ⚡
+# Pro Work AI - Enterprise Workspace Assistant
 
 ![Pro Work AI](https://img.shields.io/badge/Status-Live-success) ![Tech Stack](https://img.shields.io/badge/Tech-HTML%20%7C%20Tailwind%20%7C%20JS-blue)
 
 **Live Demo:** [View Project on Vercel](https://pro-work-ai-vert.vercel.app/)
 
 ## Project Overview
-Pro Work AI is a modern, responsive front-end web application designed to simulate an AI-powered workspace assistant. It demonstrates how professionals can automate daily administrative tasks—such as drafting emails, summarizing meetings, and planning schedules—using structured AI prompts.
+Pro Work AI is a front-end web application designed to act as an intelligent workplace assistant. Built with a classic, enterprise-grade Jira-inspired UI, it consolidates five critical productivity tools into a single, seamless dashboard. This prototype demonstrates how professionals can automate daily administrative tasks using structured AI prompts.
 
 ## Core Features
-* **Smart Email Generator:** Drafts professional emails tailored to specific audiences (Executive, Team, Client) and desired tones (Professional, Friendly, Persuasive).
-* **Meeting Notes Summarizer:** Converts unstructured meeting transcripts into categorized key points and actionable tasks.
-* **AI Task Planner:** Organizes raw to-do lists into priority-based schedules (High Priority, Low Priority).
-* **AI Research Assistant:** Generates executive summaries and key drivers on complex business topics.
-* **AI Chatbot Interface:** An interactive chat UI demonstrating conversational assistance and workflow routing.
+* **Smart Email Generator:** Drafts professional emails based on goal, tone, and assignee/audience.
+* **Meeting Notes Extractor:** Converts unstructured meeting transcripts into categorized Jira-style sub-tasks and action items.
+* **Sprint Backlog Planner:** Organizes raw to-do lists into a priority-based Kanban board.
+* **Confluence Knowledge AI:** Acts as a research assistant to generate executive summaries on technical or business topics.
+* **Workspace Service Desk:** An interactive chatbot interface for IT and workspace support.
+
+## UI & UX Highlights
+* **Jira-Clone Interface:** Exact Atlassian design system colors, functional sidebars, and system fonts for an authentic enterprise feel.
+* **Welcome Burner (Splash Screen):** A dismissible, immersive launch screen that greets the user.
+* **Ethical AI Guardrails:** Built-in UI disclaimers permanently visible at the bottom of the workspace, reminding users to verify AI-generated content before execution.
 
 ## Technology Stack
 * **Frontend UI:** HTML5
-* **Styling:** Tailwind CSS (via CDN) with Glassmorphism design elements.
-* **Interactivity:** Vanilla JavaScript (ES6) for DOM manipulation and simulated asynchronous API calls.
-* **Typography & Icons:** Google Fonts (Plus Jakarta Sans) and Font Awesome.
+* **Styling:** Tailwind CSS (via CDN) tailored with custom Jira hex color codes.
+* **Interactivity:** Vanilla JavaScript (ES6) for DOM manipulation, tab switching, and simulating asynchronous API calls.
+* **Icons & Avatars:** Font Awesome and UI Avatars API.
 * **Deployment:** Vercel
 
 ## Prompt Engineering Strategy
-While this prototype runs locally without a backend LLM, the logic demonstrates **Structured Prompt Engineering**. The simulated outputs are formatted exactly how a production backend (like Google Gemini or OpenAI API) would be instructed to respond using System Roles, Task Definitions, and strict Output Formatting constraints.
+While this prototype simulates backend LLM responses to demonstrate UI/UX flow, the underlying logic demonstrates **Structured Prompt Engineering**. It showcases how a production backend (like Google Gemini or OpenAI) would be instructed to respond using System Roles, Task Definitions, and strict Output Formatting constraints (e.g., forcing the AI to output rigid HTML tables instead of conversational fluff).
 
 ## How to Run Locally
 1. Clone this repository: `git clone https://github.com/YOUR_GITHUB_USERNAME/pro-work-ai.git`
 2. Navigate to the project folder.
 3. Open `index.html` in any modern web browser. No build steps or package managers required.
+
