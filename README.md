@@ -2,7 +2,7 @@
 
 ![Pro Work AI](https://img.shields.io/badge/Status-Live-success) ![Tech Stack](https://img.shields.io/badge/Tech-HTML%20%7C%20Tailwind%20%7C%20JS-blue)
 
-**Live Demo:** [View Project on Vercel](https://pro-work-ai-vert.vercel.app/)
+**Live Demo:** [View Project on Vercel](https://pro-work-ai-flame.vercel.app/))
 
 ## Project Overview
 Pro Work AI is a front-end web application designed to act as an intelligent workplace assistant. Built with a classic, enterprise-grade Jira-inspired UI, it consolidates five critical productivity tools into a single, seamless dashboard. This prototype demonstrates how professionals can automate daily administrative tasks using structured AI prompts.
