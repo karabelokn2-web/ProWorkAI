@@ -30,7 +30,7 @@ Pro Work AI is a front-end web application designed to act as an intelligent wor
 While this prototype simulates backend LLM responses to demonstrate UI/UX flow, the underlying logic demonstrates **Structured Prompt Engineering**. It showcases how a production backend (like Google Gemini or OpenAI) would be instructed to respond using System Roles, Task Definitions, and strict Output Formatting constraints (e.g., forcing the AI to output rigid HTML tables instead of conversational fluff).
 
 ## How to Run Locally
-1. Clone this repository: `git clone https://github.com/YOUR_GITHUB_USERNAME/pro-work-ai.git`
+1. Clone this repository: `git clone https://github.com/karabelokn2-web/pro-work-ai.git`
 2. Navigate to the project folder.
 3. Open `index.html` in any modern web browser. No build steps or package managers required.
 
